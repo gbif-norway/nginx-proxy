@@ -1,6 +1,7 @@
 version: "3"
 services:
   nginx-proxy:
+    restart: always
     image: jwilder/nginx-proxy
     container_name: nginx-proxy
     labels:
